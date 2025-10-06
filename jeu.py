@@ -3,8 +3,8 @@ from enfant import *
 
 class Jeu:
     # constructeur
-    def __init__(self, nbEnfants, i):
-        nbEnfants = nbEnfants+i
+    def __init__(self, nbEnfants):
+        nbEnfants = nbEnfants
         self.__laRonde = Ronde()
         self.saisir(nbEnfants)
         
