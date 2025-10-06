@@ -4,6 +4,7 @@ class Enfant:
         self.__nom = nom
         self.__prenom = prenom
         self.__adn = adn
+        self.tel="06..."
         
     # Accesseurs
     def get_nom(self):
