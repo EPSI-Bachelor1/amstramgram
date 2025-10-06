@@ -1,3 +1,4 @@
+
 class Enfant:
     # constructeur
     def __init__(self, nom, prenom, adn):
@@ -6,6 +7,9 @@ class Enfant:
         self.__adn = adn
         self.tel="06..."
         
+        self.tel = "06.11.78.64.90"
+
+        1
     # Accesseurs
     def get_nom(self):
         return self.__nom
@@ -25,6 +29,7 @@ class Enfant:
 
     def set_adn(self, nouveau_adn):
         self.__adn = nouveau_adn
+
     
     # autres methodes
     def calculer_age(self):
