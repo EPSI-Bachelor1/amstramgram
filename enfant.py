@@ -31,7 +31,7 @@ class Enfant:
         return age
 
     def __str__(self):
-        return f"{self.__prenom} ({self.calculer_age()} ans)."
+        return f"{self.__prenom} ({self.calculer_age()} ans)"
                 
 
     
