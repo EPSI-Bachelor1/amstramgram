@@ -15,7 +15,7 @@ class RondeAmStramGram(Ronde):
 
 if __name__ == "__main__":
     try:
-        laRonde =RondeUnPetitCOchon()
+        laRonde =RondeAmStramGram()
         
         laRonde.ajouter(Enfant("ASK", "Antoine", 2008, "Yoshi"))
         laRonde.ajouter(Enfant("BART", "Maëlys", 2008, "Maëlys"))
@@ -46,3 +46,4 @@ if __name__ == "__main__":
 
     except Exception  as ex:
         print ("ya un autre blème :", ex)
+
