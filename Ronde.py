@@ -9,6 +9,12 @@ class Ronde(ABC):
     def vide(self):
         return self.__liste == []
     
+    def ploufplouf (self):
+        if self.vide():
+            raise RondeVideError("la ronde est vide !")
+        else:
+            self.__index=0
+
     def ajouter (self, enfant):
         self.__liste.append(enfant)
 
@@ -93,4 +99,3 @@ class RondeTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
