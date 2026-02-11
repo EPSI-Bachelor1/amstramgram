@@ -92,44 +92,5 @@ class RondeTest(unittest.TestCase):
         self.assertEqual(r.combien(), n1+1)
 
 if __name__ == "__main__":
-    '''
-    laRonde = Ronde()
+    unittest.main()
 
-
-
-    laRonde.afficher()'''
-
-    #unittest.main()
-
-    try:
-        laRonde =Ronde()
-        
-        laRonde.ajouter(Enfant("ASK", "Antoine", 2008, "Yoshi"))
-        laRonde.ajouter(Enfant("BART", "Maëlys", 2008, "Maëlys"))
-        laRonde.ajouter(Enfant("BOURT ", "Théo", 2008, "Teddy"))
-        laRonde.ajouter(Enfant("CHESNEAU", "Antonin", 2008, "Mahé"))
-        laRonde.ajouter(Enfant("EDELY", "Lola", 2008, "Nunu"))
-        laRonde.ajouter(Enfant("JANOT", "Achyl", 2008, "Amby"))
-        laRonde.ajouter(Enfant("LE FRANC", "Nathan", 2008, "Bob"))
-        laRonde.ajouter(Enfant("PERNOT", "Mahé", 2008, "Antonin"))
-        laRonde.ajouter(Enfant("PEROTIN", "Evan", 2008, "Billy Boum - Babouche"))
-        laRonde.ajouter(Enfant("POPOV", "Yann", 2008, "Pica"))
-        laRonde.ajouter(Enfant("VOLMERANGE", "Julien", 2008, "Openda"))
-
-        e =laRonde.amstramgram()
-        e.afficher()
-        laRonde.sortir()
-
-        e = laRonde.amstramgram()
-        e.afficher()
-        laRonde.sortir()
-
-
-    except RondeVideError as ex:
-        print ("ya un gros blème :", ex)    
-        
-    except PasAssezDEnfantError  as ex:
-        print ("ya un petit blème :", ex)
-
-    except Exception  as ex:
-        print ("ya un autre blème :", ex)
